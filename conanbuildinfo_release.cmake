@@ -1,0 +1,403 @@
+
+#################
+###  GMP
+#################
+set(CONAN_GMP_ROOT_RELEASE "C:/Users/dmitry/.conan/data/gmp/6.2.1/_/_/package/c1430fa7339501202f6eff5c00c1be2706543a7c")
+set(CONAN_INCLUDE_DIRS_GMP_RELEASE "C:/Users/dmitry/.conan/data/gmp/6.2.1/_/_/package/c1430fa7339501202f6eff5c00c1be2706543a7c/include")
+set(CONAN_LIB_DIRS_GMP_RELEASE "C:/Users/dmitry/.conan/data/gmp/6.2.1/_/_/package/c1430fa7339501202f6eff5c00c1be2706543a7c/lib")
+set(CONAN_BIN_DIRS_GMP_RELEASE )
+set(CONAN_RES_DIRS_GMP_RELEASE )
+set(CONAN_SRC_DIRS_GMP_RELEASE )
+set(CONAN_BUILD_DIRS_GMP_RELEASE "C:/Users/dmitry/.conan/data/gmp/6.2.1/_/_/package/c1430fa7339501202f6eff5c00c1be2706543a7c/")
+set(CONAN_FRAMEWORK_DIRS_GMP_RELEASE )
+set(CONAN_LIBS_GMP_RELEASE gmpxx gmp)
+set(CONAN_PKG_LIBS_GMP_RELEASE gmpxx gmp)
+set(CONAN_SYSTEM_LIBS_GMP_RELEASE )
+set(CONAN_FRAMEWORKS_GMP_RELEASE )
+set(CONAN_FRAMEWORKS_FOUND_GMP_RELEASE "")  # Will be filled later
+set(CONAN_DEFINES_GMP_RELEASE )
+set(CONAN_BUILD_MODULES_PATHS_GMP_RELEASE )
+# COMPILE_DEFINITIONS are equal to CONAN_DEFINES without -D, for targets
+set(CONAN_COMPILE_DEFINITIONS_GMP_RELEASE )
+
+set(CONAN_C_FLAGS_GMP_RELEASE "")
+set(CONAN_CXX_FLAGS_GMP_RELEASE "")
+set(CONAN_SHARED_LINKER_FLAGS_GMP_RELEASE "")
+set(CONAN_EXE_LINKER_FLAGS_GMP_RELEASE "")
+
+# For modern cmake targets we use the list variables (separated with ;)
+set(CONAN_C_FLAGS_GMP_RELEASE_LIST "")
+set(CONAN_CXX_FLAGS_GMP_RELEASE_LIST "")
+set(CONAN_SHARED_LINKER_FLAGS_GMP_RELEASE_LIST "")
+set(CONAN_EXE_LINKER_FLAGS_GMP_RELEASE_LIST "")
+
+# Apple Frameworks
+conan_find_apple_frameworks(CONAN_FRAMEWORKS_FOUND_GMP_RELEASE "${CONAN_FRAMEWORKS_GMP_RELEASE}" "_GMP" "_RELEASE")
+# Append to aggregated values variable
+set(CONAN_LIBS_GMP_RELEASE ${CONAN_PKG_LIBS_GMP_RELEASE} ${CONAN_SYSTEM_LIBS_GMP_RELEASE} ${CONAN_FRAMEWORKS_FOUND_GMP_RELEASE})
+
+
+#################
+###  CATCH2
+#################
+set(CONAN_CATCH2_ROOT_RELEASE "C:/Users/dmitry/.conan/data/catch2/2.13.4/_/_/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9")
+set(CONAN_INCLUDE_DIRS_CATCH2_RELEASE "C:/Users/dmitry/.conan/data/catch2/2.13.4/_/_/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/include")
+set(CONAN_LIB_DIRS_CATCH2_RELEASE "C:/Users/dmitry/.conan/data/catch2/2.13.4/_/_/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/lib")
+set(CONAN_BIN_DIRS_CATCH2_RELEASE )
+set(CONAN_RES_DIRS_CATCH2_RELEASE )
+set(CONAN_SRC_DIRS_CATCH2_RELEASE )
+set(CONAN_BUILD_DIRS_CATCH2_RELEASE "C:/Users/dmitry/.conan/data/catch2/2.13.4/_/_/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/lib/cmake/Catch2")
+set(CONAN_FRAMEWORK_DIRS_CATCH2_RELEASE )
+set(CONAN_LIBS_CATCH2_RELEASE )
+set(CONAN_PKG_LIBS_CATCH2_RELEASE )
+set(CONAN_SYSTEM_LIBS_CATCH2_RELEASE )
+set(CONAN_FRAMEWORKS_CATCH2_RELEASE )
+set(CONAN_FRAMEWORKS_FOUND_CATCH2_RELEASE "")  # Will be filled later
+set(CONAN_DEFINES_CATCH2_RELEASE )
+set(CONAN_BUILD_MODULES_PATHS_CATCH2_RELEASE )
+# COMPILE_DEFINITIONS are equal to CONAN_DEFINES without -D, for targets
+set(CONAN_COMPILE_DEFINITIONS_CATCH2_RELEASE )
+
+set(CONAN_C_FLAGS_CATCH2_RELEASE "")
+set(CONAN_CXX_FLAGS_CATCH2_RELEASE "")
+set(CONAN_SHARED_LINKER_FLAGS_CATCH2_RELEASE "")
+set(CONAN_EXE_LINKER_FLAGS_CATCH2_RELEASE "")
+
+# For modern cmake targets we use the list variables (separated with ;)
+set(CONAN_C_FLAGS_CATCH2_RELEASE_LIST "")
+set(CONAN_CXX_FLAGS_CATCH2_RELEASE_LIST "")
+set(CONAN_SHARED_LINKER_FLAGS_CATCH2_RELEASE_LIST "")
+set(CONAN_EXE_LINKER_FLAGS_CATCH2_RELEASE_LIST "")
+
+# Apple Frameworks
+conan_find_apple_frameworks(CONAN_FRAMEWORKS_FOUND_CATCH2_RELEASE "${CONAN_FRAMEWORKS_CATCH2_RELEASE}" "_CATCH2" "_RELEASE")
+# Append to aggregated values variable
+set(CONAN_LIBS_CATCH2_RELEASE ${CONAN_PKG_LIBS_CATCH2_RELEASE} ${CONAN_SYSTEM_LIBS_CATCH2_RELEASE} ${CONAN_FRAMEWORKS_FOUND_CATCH2_RELEASE})
+
+
+#################
+###  POCO
+#################
+set(CONAN_POCO_ROOT_RELEASE "C:/Users/dmitry/.conan/data/poco/1.10.1/_/_/package/0f0172b5e5badfda7d0d23317584214cf60454b8")
+set(CONAN_INCLUDE_DIRS_POCO_RELEASE "C:/Users/dmitry/.conan/data/poco/1.10.1/_/_/package/0f0172b5e5badfda7d0d23317584214cf60454b8/include")
+set(CONAN_LIB_DIRS_POCO_RELEASE "C:/Users/dmitry/.conan/data/poco/1.10.1/_/_/package/0f0172b5e5badfda7d0d23317584214cf60454b8/lib")
+set(CONAN_BIN_DIRS_POCO_RELEASE )
+set(CONAN_RES_DIRS_POCO_RELEASE )
+set(CONAN_SRC_DIRS_POCO_RELEASE )
+set(CONAN_BUILD_DIRS_POCO_RELEASE "C:/Users/dmitry/.conan/data/poco/1.10.1/_/_/package/0f0172b5e5badfda7d0d23317584214cf60454b8/")
+set(CONAN_FRAMEWORK_DIRS_POCO_RELEASE )
+set(CONAN_LIBS_POCO_RELEASE PocoUtilmd PocoNetmd PocoJSONmd PocoXMLmd PocoFoundationmd)
+set(CONAN_PKG_LIBS_POCO_RELEASE PocoUtilmd PocoNetmd PocoJSONmd PocoXMLmd PocoFoundationmd)
+set(CONAN_SYSTEM_LIBS_POCO_RELEASE ws2_32 iphlpapi crypt32)
+set(CONAN_FRAMEWORKS_POCO_RELEASE )
+set(CONAN_FRAMEWORKS_FOUND_POCO_RELEASE "")  # Will be filled later
+set(CONAN_DEFINES_POCO_RELEASE "-DPOCO_NO_AUTOMATIC_LIBS"
+			"-DPOCO_STATIC=ON")
+set(CONAN_BUILD_MODULES_PATHS_POCO_RELEASE )
+# COMPILE_DEFINITIONS are equal to CONAN_DEFINES without -D, for targets
+set(CONAN_COMPILE_DEFINITIONS_POCO_RELEASE "POCO_NO_AUTOMATIC_LIBS"
+			"POCO_STATIC=ON")
+
+set(CONAN_C_FLAGS_POCO_RELEASE "")
+set(CONAN_CXX_FLAGS_POCO_RELEASE "")
+set(CONAN_SHARED_LINKER_FLAGS_POCO_RELEASE "")
+set(CONAN_EXE_LINKER_FLAGS_POCO_RELEASE "")
+
+# For modern cmake targets we use the list variables (separated with ;)
+set(CONAN_C_FLAGS_POCO_RELEASE_LIST "")
+set(CONAN_CXX_FLAGS_POCO_RELEASE_LIST "")
+set(CONAN_SHARED_LINKER_FLAGS_POCO_RELEASE_LIST "")
+set(CONAN_EXE_LINKER_FLAGS_POCO_RELEASE_LIST "")
+
+# Apple Frameworks
+conan_find_apple_frameworks(CONAN_FRAMEWORKS_FOUND_POCO_RELEASE "${CONAN_FRAMEWORKS_POCO_RELEASE}" "_POCO" "_RELEASE")
+# Append to aggregated values variable
+set(CONAN_LIBS_POCO_RELEASE ${CONAN_PKG_LIBS_POCO_RELEASE} ${CONAN_SYSTEM_LIBS_POCO_RELEASE} ${CONAN_FRAMEWORKS_FOUND_POCO_RELEASE})
+
+
+#################
+###  NLOHMANN_JSON
+#################
+set(CONAN_NLOHMANN_JSON_ROOT_RELEASE "C:/Users/dmitry/.conan/data/nlohmann_json/3.9.1/_/_/package/d1091b2ed420e6d287293709a907ae824d5de508")
+set(CONAN_INCLUDE_DIRS_NLOHMANN_JSON_RELEASE "C:/Users/dmitry/.conan/data/nlohmann_json/3.9.1/_/_/package/d1091b2ed420e6d287293709a907ae824d5de508/include")
+set(CONAN_LIB_DIRS_NLOHMANN_JSON_RELEASE )
+set(CONAN_BIN_DIRS_NLOHMANN_JSON_RELEASE )
+set(CONAN_RES_DIRS_NLOHMANN_JSON_RELEASE )
+set(CONAN_SRC_DIRS_NLOHMANN_JSON_RELEASE )
+set(CONAN_BUILD_DIRS_NLOHMANN_JSON_RELEASE "C:/Users/dmitry/.conan/data/nlohmann_json/3.9.1/_/_/package/d1091b2ed420e6d287293709a907ae824d5de508/")
+set(CONAN_FRAMEWORK_DIRS_NLOHMANN_JSON_RELEASE )
+set(CONAN_LIBS_NLOHMANN_JSON_RELEASE )
+set(CONAN_PKG_LIBS_NLOHMANN_JSON_RELEASE )
+set(CONAN_SYSTEM_LIBS_NLOHMANN_JSON_RELEASE )
+set(CONAN_FRAMEWORKS_NLOHMANN_JSON_RELEASE )
+set(CONAN_FRAMEWORKS_FOUND_NLOHMANN_JSON_RELEASE "")  # Will be filled later
+set(CONAN_DEFINES_NLOHMANN_JSON_RELEASE "-DJSON_USE_IMPLICIT_CONVERSIONS=1")
+set(CONAN_BUILD_MODULES_PATHS_NLOHMANN_JSON_RELEASE )
+# COMPILE_DEFINITIONS are equal to CONAN_DEFINES without -D, for targets
+set(CONAN_COMPILE_DEFINITIONS_NLOHMANN_JSON_RELEASE "JSON_USE_IMPLICIT_CONVERSIONS=1")
+
+set(CONAN_C_FLAGS_NLOHMANN_JSON_RELEASE "")
+set(CONAN_CXX_FLAGS_NLOHMANN_JSON_RELEASE "")
+set(CONAN_SHARED_LINKER_FLAGS_NLOHMANN_JSON_RELEASE "")
+set(CONAN_EXE_LINKER_FLAGS_NLOHMANN_JSON_RELEASE "")
+
+# For modern cmake targets we use the list variables (separated with ;)
+set(CONAN_C_FLAGS_NLOHMANN_JSON_RELEASE_LIST "")
+set(CONAN_CXX_FLAGS_NLOHMANN_JSON_RELEASE_LIST "")
+set(CONAN_SHARED_LINKER_FLAGS_NLOHMANN_JSON_RELEASE_LIST "")
+set(CONAN_EXE_LINKER_FLAGS_NLOHMANN_JSON_RELEASE_LIST "")
+
+# Apple Frameworks
+conan_find_apple_frameworks(CONAN_FRAMEWORKS_FOUND_NLOHMANN_JSON_RELEASE "${CONAN_FRAMEWORKS_NLOHMANN_JSON_RELEASE}" "_NLOHMANN_JSON" "_RELEASE")
+# Append to aggregated values variable
+set(CONAN_LIBS_NLOHMANN_JSON_RELEASE ${CONAN_PKG_LIBS_NLOHMANN_JSON_RELEASE} ${CONAN_SYSTEM_LIBS_NLOHMANN_JSON_RELEASE} ${CONAN_FRAMEWORKS_FOUND_NLOHMANN_JSON_RELEASE})
+
+
+#################
+###  FAST-CPP-CSV-PARSER
+#################
+set(CONAN_FAST-CPP-CSV-PARSER_ROOT_RELEASE "C:/Users/dmitry/.conan/data/fast-cpp-csv-parser/cci.20200830/_/_/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9")
+set(CONAN_INCLUDE_DIRS_FAST-CPP-CSV-PARSER_RELEASE "C:/Users/dmitry/.conan/data/fast-cpp-csv-parser/cci.20200830/_/_/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/include"
+			"C:/Users/dmitry/.conan/data/fast-cpp-csv-parser/cci.20200830/_/_/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/include/fast-cpp-csv-parser")
+set(CONAN_LIB_DIRS_FAST-CPP-CSV-PARSER_RELEASE )
+set(CONAN_BIN_DIRS_FAST-CPP-CSV-PARSER_RELEASE )
+set(CONAN_RES_DIRS_FAST-CPP-CSV-PARSER_RELEASE )
+set(CONAN_SRC_DIRS_FAST-CPP-CSV-PARSER_RELEASE )
+set(CONAN_BUILD_DIRS_FAST-CPP-CSV-PARSER_RELEASE "C:/Users/dmitry/.conan/data/fast-cpp-csv-parser/cci.20200830/_/_/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/")
+set(CONAN_FRAMEWORK_DIRS_FAST-CPP-CSV-PARSER_RELEASE )
+set(CONAN_LIBS_FAST-CPP-CSV-PARSER_RELEASE )
+set(CONAN_PKG_LIBS_FAST-CPP-CSV-PARSER_RELEASE )
+set(CONAN_SYSTEM_LIBS_FAST-CPP-CSV-PARSER_RELEASE )
+set(CONAN_FRAMEWORKS_FAST-CPP-CSV-PARSER_RELEASE )
+set(CONAN_FRAMEWORKS_FOUND_FAST-CPP-CSV-PARSER_RELEASE "")  # Will be filled later
+set(CONAN_DEFINES_FAST-CPP-CSV-PARSER_RELEASE )
+set(CONAN_BUILD_MODULES_PATHS_FAST-CPP-CSV-PARSER_RELEASE )
+# COMPILE_DEFINITIONS are equal to CONAN_DEFINES without -D, for targets
+set(CONAN_COMPILE_DEFINITIONS_FAST-CPP-CSV-PARSER_RELEASE )
+
+set(CONAN_C_FLAGS_FAST-CPP-CSV-PARSER_RELEASE "")
+set(CONAN_CXX_FLAGS_FAST-CPP-CSV-PARSER_RELEASE "")
+set(CONAN_SHARED_LINKER_FLAGS_FAST-CPP-CSV-PARSER_RELEASE "")
+set(CONAN_EXE_LINKER_FLAGS_FAST-CPP-CSV-PARSER_RELEASE "")
+
+# For modern cmake targets we use the list variables (separated with ;)
+set(CONAN_C_FLAGS_FAST-CPP-CSV-PARSER_RELEASE_LIST "")
+set(CONAN_CXX_FLAGS_FAST-CPP-CSV-PARSER_RELEASE_LIST "")
+set(CONAN_SHARED_LINKER_FLAGS_FAST-CPP-CSV-PARSER_RELEASE_LIST "")
+set(CONAN_EXE_LINKER_FLAGS_FAST-CPP-CSV-PARSER_RELEASE_LIST "")
+
+# Apple Frameworks
+conan_find_apple_frameworks(CONAN_FRAMEWORKS_FOUND_FAST-CPP-CSV-PARSER_RELEASE "${CONAN_FRAMEWORKS_FAST-CPP-CSV-PARSER_RELEASE}" "_FAST-CPP-CSV-PARSER" "_RELEASE")
+# Append to aggregated values variable
+set(CONAN_LIBS_FAST-CPP-CSV-PARSER_RELEASE ${CONAN_PKG_LIBS_FAST-CPP-CSV-PARSER_RELEASE} ${CONAN_SYSTEM_LIBS_FAST-CPP-CSV-PARSER_RELEASE} ${CONAN_FRAMEWORKS_FOUND_FAST-CPP-CSV-PARSER_RELEASE})
+
+
+#################
+###  PCRE
+#################
+set(CONAN_PCRE_ROOT_RELEASE "C:/Users/dmitry/.conan/data/pcre/8.44/_/_/package/3f212c80aa6d2e609fef5fb7cb6dfc086d607220")
+set(CONAN_INCLUDE_DIRS_PCRE_RELEASE "C:/Users/dmitry/.conan/data/pcre/8.44/_/_/package/3f212c80aa6d2e609fef5fb7cb6dfc086d607220/include")
+set(CONAN_LIB_DIRS_PCRE_RELEASE "C:/Users/dmitry/.conan/data/pcre/8.44/_/_/package/3f212c80aa6d2e609fef5fb7cb6dfc086d607220/lib")
+set(CONAN_BIN_DIRS_PCRE_RELEASE "C:/Users/dmitry/.conan/data/pcre/8.44/_/_/package/3f212c80aa6d2e609fef5fb7cb6dfc086d607220/bin")
+set(CONAN_RES_DIRS_PCRE_RELEASE )
+set(CONAN_SRC_DIRS_PCRE_RELEASE )
+set(CONAN_BUILD_DIRS_PCRE_RELEASE "C:/Users/dmitry/.conan/data/pcre/8.44/_/_/package/3f212c80aa6d2e609fef5fb7cb6dfc086d607220/")
+set(CONAN_FRAMEWORK_DIRS_PCRE_RELEASE )
+set(CONAN_LIBS_PCRE_RELEASE pcreposix pcre pcre16 pcre32)
+set(CONAN_PKG_LIBS_PCRE_RELEASE pcreposix pcre pcre16 pcre32)
+set(CONAN_SYSTEM_LIBS_PCRE_RELEASE )
+set(CONAN_FRAMEWORKS_PCRE_RELEASE )
+set(CONAN_FRAMEWORKS_FOUND_PCRE_RELEASE "")  # Will be filled later
+set(CONAN_DEFINES_PCRE_RELEASE "-DPCRE_STATIC=1")
+set(CONAN_BUILD_MODULES_PATHS_PCRE_RELEASE )
+# COMPILE_DEFINITIONS are equal to CONAN_DEFINES without -D, for targets
+set(CONAN_COMPILE_DEFINITIONS_PCRE_RELEASE "PCRE_STATIC=1")
+
+set(CONAN_C_FLAGS_PCRE_RELEASE "")
+set(CONAN_CXX_FLAGS_PCRE_RELEASE "")
+set(CONAN_SHARED_LINKER_FLAGS_PCRE_RELEASE "")
+set(CONAN_EXE_LINKER_FLAGS_PCRE_RELEASE "")
+
+# For modern cmake targets we use the list variables (separated with ;)
+set(CONAN_C_FLAGS_PCRE_RELEASE_LIST "")
+set(CONAN_CXX_FLAGS_PCRE_RELEASE_LIST "")
+set(CONAN_SHARED_LINKER_FLAGS_PCRE_RELEASE_LIST "")
+set(CONAN_EXE_LINKER_FLAGS_PCRE_RELEASE_LIST "")
+
+# Apple Frameworks
+conan_find_apple_frameworks(CONAN_FRAMEWORKS_FOUND_PCRE_RELEASE "${CONAN_FRAMEWORKS_PCRE_RELEASE}" "_PCRE" "_RELEASE")
+# Append to aggregated values variable
+set(CONAN_LIBS_PCRE_RELEASE ${CONAN_PKG_LIBS_PCRE_RELEASE} ${CONAN_SYSTEM_LIBS_PCRE_RELEASE} ${CONAN_FRAMEWORKS_FOUND_PCRE_RELEASE})
+
+
+#################
+###  EXPAT
+#################
+set(CONAN_EXPAT_ROOT_RELEASE "C:/Users/dmitry/.conan/data/expat/2.2.10/_/_/package/3fb49604f9c2f729b85ba3115852006824e72cab")
+set(CONAN_INCLUDE_DIRS_EXPAT_RELEASE "C:/Users/dmitry/.conan/data/expat/2.2.10/_/_/package/3fb49604f9c2f729b85ba3115852006824e72cab/include")
+set(CONAN_LIB_DIRS_EXPAT_RELEASE "C:/Users/dmitry/.conan/data/expat/2.2.10/_/_/package/3fb49604f9c2f729b85ba3115852006824e72cab/lib")
+set(CONAN_BIN_DIRS_EXPAT_RELEASE )
+set(CONAN_RES_DIRS_EXPAT_RELEASE )
+set(CONAN_SRC_DIRS_EXPAT_RELEASE )
+set(CONAN_BUILD_DIRS_EXPAT_RELEASE "C:/Users/dmitry/.conan/data/expat/2.2.10/_/_/package/3fb49604f9c2f729b85ba3115852006824e72cab/")
+set(CONAN_FRAMEWORK_DIRS_EXPAT_RELEASE )
+set(CONAN_LIBS_EXPAT_RELEASE libexpatMD)
+set(CONAN_PKG_LIBS_EXPAT_RELEASE libexpatMD)
+set(CONAN_SYSTEM_LIBS_EXPAT_RELEASE )
+set(CONAN_FRAMEWORKS_EXPAT_RELEASE )
+set(CONAN_FRAMEWORKS_FOUND_EXPAT_RELEASE "")  # Will be filled later
+set(CONAN_DEFINES_EXPAT_RELEASE "-DXML_STATIC")
+set(CONAN_BUILD_MODULES_PATHS_EXPAT_RELEASE )
+# COMPILE_DEFINITIONS are equal to CONAN_DEFINES without -D, for targets
+set(CONAN_COMPILE_DEFINITIONS_EXPAT_RELEASE "XML_STATIC")
+
+set(CONAN_C_FLAGS_EXPAT_RELEASE "")
+set(CONAN_CXX_FLAGS_EXPAT_RELEASE "")
+set(CONAN_SHARED_LINKER_FLAGS_EXPAT_RELEASE "")
+set(CONAN_EXE_LINKER_FLAGS_EXPAT_RELEASE "")
+
+# For modern cmake targets we use the list variables (separated with ;)
+set(CONAN_C_FLAGS_EXPAT_RELEASE_LIST "")
+set(CONAN_CXX_FLAGS_EXPAT_RELEASE_LIST "")
+set(CONAN_SHARED_LINKER_FLAGS_EXPAT_RELEASE_LIST "")
+set(CONAN_EXE_LINKER_FLAGS_EXPAT_RELEASE_LIST "")
+
+# Apple Frameworks
+conan_find_apple_frameworks(CONAN_FRAMEWORKS_FOUND_EXPAT_RELEASE "${CONAN_FRAMEWORKS_EXPAT_RELEASE}" "_EXPAT" "_RELEASE")
+# Append to aggregated values variable
+set(CONAN_LIBS_EXPAT_RELEASE ${CONAN_PKG_LIBS_EXPAT_RELEASE} ${CONAN_SYSTEM_LIBS_EXPAT_RELEASE} ${CONAN_FRAMEWORKS_FOUND_EXPAT_RELEASE})
+
+
+#################
+###  BZIP2
+#################
+set(CONAN_BZIP2_ROOT_RELEASE "C:/Users/dmitry/.conan/data/bzip2/1.0.8/_/_/package/d16a91eadaaf5829b928b12d2f836ff7680d3df5")
+set(CONAN_INCLUDE_DIRS_BZIP2_RELEASE "C:/Users/dmitry/.conan/data/bzip2/1.0.8/_/_/package/d16a91eadaaf5829b928b12d2f836ff7680d3df5/include")
+set(CONAN_LIB_DIRS_BZIP2_RELEASE "C:/Users/dmitry/.conan/data/bzip2/1.0.8/_/_/package/d16a91eadaaf5829b928b12d2f836ff7680d3df5/lib")
+set(CONAN_BIN_DIRS_BZIP2_RELEASE "C:/Users/dmitry/.conan/data/bzip2/1.0.8/_/_/package/d16a91eadaaf5829b928b12d2f836ff7680d3df5/bin")
+set(CONAN_RES_DIRS_BZIP2_RELEASE )
+set(CONAN_SRC_DIRS_BZIP2_RELEASE )
+set(CONAN_BUILD_DIRS_BZIP2_RELEASE "C:/Users/dmitry/.conan/data/bzip2/1.0.8/_/_/package/d16a91eadaaf5829b928b12d2f836ff7680d3df5/"
+			"C:/Users/dmitry/.conan/data/bzip2/1.0.8/_/_/package/d16a91eadaaf5829b928b12d2f836ff7680d3df5/lib/cmake")
+set(CONAN_FRAMEWORK_DIRS_BZIP2_RELEASE )
+set(CONAN_LIBS_BZIP2_RELEASE bz2)
+set(CONAN_PKG_LIBS_BZIP2_RELEASE bz2)
+set(CONAN_SYSTEM_LIBS_BZIP2_RELEASE )
+set(CONAN_FRAMEWORKS_BZIP2_RELEASE )
+set(CONAN_FRAMEWORKS_FOUND_BZIP2_RELEASE "")  # Will be filled later
+set(CONAN_DEFINES_BZIP2_RELEASE )
+set(CONAN_BUILD_MODULES_PATHS_BZIP2_RELEASE )
+# COMPILE_DEFINITIONS are equal to CONAN_DEFINES without -D, for targets
+set(CONAN_COMPILE_DEFINITIONS_BZIP2_RELEASE )
+
+set(CONAN_C_FLAGS_BZIP2_RELEASE "")
+set(CONAN_CXX_FLAGS_BZIP2_RELEASE "")
+set(CONAN_SHARED_LINKER_FLAGS_BZIP2_RELEASE "")
+set(CONAN_EXE_LINKER_FLAGS_BZIP2_RELEASE "")
+
+# For modern cmake targets we use the list variables (separated with ;)
+set(CONAN_C_FLAGS_BZIP2_RELEASE_LIST "")
+set(CONAN_CXX_FLAGS_BZIP2_RELEASE_LIST "")
+set(CONAN_SHARED_LINKER_FLAGS_BZIP2_RELEASE_LIST "")
+set(CONAN_EXE_LINKER_FLAGS_BZIP2_RELEASE_LIST "")
+
+# Apple Frameworks
+conan_find_apple_frameworks(CONAN_FRAMEWORKS_FOUND_BZIP2_RELEASE "${CONAN_FRAMEWORKS_BZIP2_RELEASE}" "_BZIP2" "_RELEASE")
+# Append to aggregated values variable
+set(CONAN_LIBS_BZIP2_RELEASE ${CONAN_PKG_LIBS_BZIP2_RELEASE} ${CONAN_SYSTEM_LIBS_BZIP2_RELEASE} ${CONAN_FRAMEWORKS_FOUND_BZIP2_RELEASE})
+
+
+#################
+###  ZLIB
+#################
+set(CONAN_ZLIB_ROOT_RELEASE "C:/Users/dmitry/.conan/data/zlib/1.2.11/_/_/package/3fb49604f9c2f729b85ba3115852006824e72cab")
+set(CONAN_INCLUDE_DIRS_ZLIB_RELEASE "C:/Users/dmitry/.conan/data/zlib/1.2.11/_/_/package/3fb49604f9c2f729b85ba3115852006824e72cab/include")
+set(CONAN_LIB_DIRS_ZLIB_RELEASE "C:/Users/dmitry/.conan/data/zlib/1.2.11/_/_/package/3fb49604f9c2f729b85ba3115852006824e72cab/lib")
+set(CONAN_BIN_DIRS_ZLIB_RELEASE )
+set(CONAN_RES_DIRS_ZLIB_RELEASE )
+set(CONAN_SRC_DIRS_ZLIB_RELEASE )
+set(CONAN_BUILD_DIRS_ZLIB_RELEASE "C:/Users/dmitry/.conan/data/zlib/1.2.11/_/_/package/3fb49604f9c2f729b85ba3115852006824e72cab/")
+set(CONAN_FRAMEWORK_DIRS_ZLIB_RELEASE )
+set(CONAN_LIBS_ZLIB_RELEASE zlib)
+set(CONAN_PKG_LIBS_ZLIB_RELEASE zlib)
+set(CONAN_SYSTEM_LIBS_ZLIB_RELEASE )
+set(CONAN_FRAMEWORKS_ZLIB_RELEASE )
+set(CONAN_FRAMEWORKS_FOUND_ZLIB_RELEASE "")  # Will be filled later
+set(CONAN_DEFINES_ZLIB_RELEASE )
+set(CONAN_BUILD_MODULES_PATHS_ZLIB_RELEASE )
+# COMPILE_DEFINITIONS are equal to CONAN_DEFINES without -D, for targets
+set(CONAN_COMPILE_DEFINITIONS_ZLIB_RELEASE )
+
+set(CONAN_C_FLAGS_ZLIB_RELEASE "")
+set(CONAN_CXX_FLAGS_ZLIB_RELEASE "")
+set(CONAN_SHARED_LINKER_FLAGS_ZLIB_RELEASE "")
+set(CONAN_EXE_LINKER_FLAGS_ZLIB_RELEASE "")
+
+# For modern cmake targets we use the list variables (separated with ;)
+set(CONAN_C_FLAGS_ZLIB_RELEASE_LIST "")
+set(CONAN_CXX_FLAGS_ZLIB_RELEASE_LIST "")
+set(CONAN_SHARED_LINKER_FLAGS_ZLIB_RELEASE_LIST "")
+set(CONAN_EXE_LINKER_FLAGS_ZLIB_RELEASE_LIST "")
+
+# Apple Frameworks
+conan_find_apple_frameworks(CONAN_FRAMEWORKS_FOUND_ZLIB_RELEASE "${CONAN_FRAMEWORKS_ZLIB_RELEASE}" "_ZLIB" "_RELEASE")
+# Append to aggregated values variable
+set(CONAN_LIBS_ZLIB_RELEASE ${CONAN_PKG_LIBS_ZLIB_RELEASE} ${CONAN_SYSTEM_LIBS_ZLIB_RELEASE} ${CONAN_FRAMEWORKS_FOUND_ZLIB_RELEASE})
+
+
+### Definition of global aggregated variables ###
+
+set(CONAN_DEPENDENCIES_RELEASE gmp catch2 poco nlohmann_json fast-cpp-csv-parser pcre expat bzip2 zlib)
+
+set(CONAN_INCLUDE_DIRS_RELEASE "C:/Users/dmitry/.conan/data/gmp/6.2.1/_/_/package/c1430fa7339501202f6eff5c00c1be2706543a7c/include"
+			"C:/Users/dmitry/.conan/data/catch2/2.13.4/_/_/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/include"
+			"C:/Users/dmitry/.conan/data/poco/1.10.1/_/_/package/0f0172b5e5badfda7d0d23317584214cf60454b8/include"
+			"C:/Users/dmitry/.conan/data/nlohmann_json/3.9.1/_/_/package/d1091b2ed420e6d287293709a907ae824d5de508/include"
+			"C:/Users/dmitry/.conan/data/fast-cpp-csv-parser/cci.20200830/_/_/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/include"
+			"C:/Users/dmitry/.conan/data/fast-cpp-csv-parser/cci.20200830/_/_/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/include/fast-cpp-csv-parser"
+			"C:/Users/dmitry/.conan/data/pcre/8.44/_/_/package/3f212c80aa6d2e609fef5fb7cb6dfc086d607220/include"
+			"C:/Users/dmitry/.conan/data/expat/2.2.10/_/_/package/3fb49604f9c2f729b85ba3115852006824e72cab/include"
+			"C:/Users/dmitry/.conan/data/bzip2/1.0.8/_/_/package/d16a91eadaaf5829b928b12d2f836ff7680d3df5/include"
+			"C:/Users/dmitry/.conan/data/zlib/1.2.11/_/_/package/3fb49604f9c2f729b85ba3115852006824e72cab/include" ${CONAN_INCLUDE_DIRS_RELEASE})
+set(CONAN_LIB_DIRS_RELEASE "C:/Users/dmitry/.conan/data/gmp/6.2.1/_/_/package/c1430fa7339501202f6eff5c00c1be2706543a7c/lib"
+			"C:/Users/dmitry/.conan/data/catch2/2.13.4/_/_/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/lib"
+			"C:/Users/dmitry/.conan/data/poco/1.10.1/_/_/package/0f0172b5e5badfda7d0d23317584214cf60454b8/lib"
+			"C:/Users/dmitry/.conan/data/pcre/8.44/_/_/package/3f212c80aa6d2e609fef5fb7cb6dfc086d607220/lib"
+			"C:/Users/dmitry/.conan/data/expat/2.2.10/_/_/package/3fb49604f9c2f729b85ba3115852006824e72cab/lib"
+			"C:/Users/dmitry/.conan/data/bzip2/1.0.8/_/_/package/d16a91eadaaf5829b928b12d2f836ff7680d3df5/lib"
+			"C:/Users/dmitry/.conan/data/zlib/1.2.11/_/_/package/3fb49604f9c2f729b85ba3115852006824e72cab/lib" ${CONAN_LIB_DIRS_RELEASE})
+set(CONAN_BIN_DIRS_RELEASE "C:/Users/dmitry/.conan/data/pcre/8.44/_/_/package/3f212c80aa6d2e609fef5fb7cb6dfc086d607220/bin"
+			"C:/Users/dmitry/.conan/data/bzip2/1.0.8/_/_/package/d16a91eadaaf5829b928b12d2f836ff7680d3df5/bin" ${CONAN_BIN_DIRS_RELEASE})
+set(CONAN_RES_DIRS_RELEASE  ${CONAN_RES_DIRS_RELEASE})
+set(CONAN_FRAMEWORK_DIRS_RELEASE  ${CONAN_FRAMEWORK_DIRS_RELEASE})
+set(CONAN_LIBS_RELEASE gmpxx gmp PocoUtilmd PocoNetmd PocoJSONmd PocoXMLmd PocoFoundationmd pcreposix pcre pcre16 pcre32 libexpatMD bz2 zlib ${CONAN_LIBS_RELEASE})
+set(CONAN_PKG_LIBS_RELEASE gmpxx gmp PocoUtilmd PocoNetmd PocoJSONmd PocoXMLmd PocoFoundationmd pcreposix pcre pcre16 pcre32 libexpatMD bz2 zlib ${CONAN_PKG_LIBS_RELEASE})
+set(CONAN_SYSTEM_LIBS_RELEASE ws2_32 iphlpapi crypt32 ${CONAN_SYSTEM_LIBS_RELEASE})
+set(CONAN_FRAMEWORKS_RELEASE  ${CONAN_FRAMEWORKS_RELEASE})
+set(CONAN_FRAMEWORKS_FOUND_RELEASE "")  # Will be filled later
+set(CONAN_DEFINES_RELEASE "-DXML_STATIC"
+			"-DPCRE_STATIC=1"
+			"-DJSON_USE_IMPLICIT_CONVERSIONS=1"
+			"-DPOCO_NO_AUTOMATIC_LIBS"
+			"-DPOCO_STATIC=ON" ${CONAN_DEFINES_RELEASE})
+set(CONAN_BUILD_MODULES_PATHS_RELEASE  ${CONAN_BUILD_MODULES_PATHS_RELEASE})
+set(CONAN_CMAKE_MODULE_PATH_RELEASE "C:/Users/dmitry/.conan/data/gmp/6.2.1/_/_/package/c1430fa7339501202f6eff5c00c1be2706543a7c/"
+			"C:/Users/dmitry/.conan/data/catch2/2.13.4/_/_/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/lib/cmake/Catch2"
+			"C:/Users/dmitry/.conan/data/poco/1.10.1/_/_/package/0f0172b5e5badfda7d0d23317584214cf60454b8/"
+			"C:/Users/dmitry/.conan/data/nlohmann_json/3.9.1/_/_/package/d1091b2ed420e6d287293709a907ae824d5de508/"
+			"C:/Users/dmitry/.conan/data/fast-cpp-csv-parser/cci.20200830/_/_/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/"
+			"C:/Users/dmitry/.conan/data/pcre/8.44/_/_/package/3f212c80aa6d2e609fef5fb7cb6dfc086d607220/"
+			"C:/Users/dmitry/.conan/data/expat/2.2.10/_/_/package/3fb49604f9c2f729b85ba3115852006824e72cab/"
+			"C:/Users/dmitry/.conan/data/bzip2/1.0.8/_/_/package/d16a91eadaaf5829b928b12d2f836ff7680d3df5/"
+			"C:/Users/dmitry/.conan/data/bzip2/1.0.8/_/_/package/d16a91eadaaf5829b928b12d2f836ff7680d3df5/lib/cmake"
+			"C:/Users/dmitry/.conan/data/zlib/1.2.11/_/_/package/3fb49604f9c2f729b85ba3115852006824e72cab/" ${CONAN_CMAKE_MODULE_PATH_RELEASE})
+
+set(CONAN_CXX_FLAGS_RELEASE " ${CONAN_CXX_FLAGS_RELEASE}")
+set(CONAN_SHARED_LINKER_FLAGS_RELEASE " ${CONAN_SHARED_LINKER_FLAGS_RELEASE}")
+set(CONAN_EXE_LINKER_FLAGS_RELEASE " ${CONAN_EXE_LINKER_FLAGS_RELEASE}")
+set(CONAN_C_FLAGS_RELEASE " ${CONAN_C_FLAGS_RELEASE}")
+
+# Apple Frameworks
+conan_find_apple_frameworks(CONAN_FRAMEWORKS_FOUND_RELEASE "${CONAN_FRAMEWORKS_RELEASE}" "" "_RELEASE")
+# Append to aggregated values variable: Use CONAN_LIBS instead of CONAN_PKG_LIBS to include user appended vars
+set(CONAN_LIBS_RELEASE ${CONAN_LIBS_RELEASE} ${CONAN_SYSTEM_LIBS_RELEASE} ${CONAN_FRAMEWORKS_FOUND_RELEASE})

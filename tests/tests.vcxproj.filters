@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\dmitry\Desktop\project\tests\src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\dmitry\Desktop\project\tests\src\test_cases\sum_tests.cpp">
+      <Filter>src\test_cases</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\dmitry\Desktop\project\tests\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{C5FA1646-7EFB-323C-AB10-6BEFAC91AD8E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\test_cases">
+      <UniqueIdentifier>{FF2CDBBD-A99D-3454-91D0-CC29CA1A82E3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,8 @@
+C:/Users/dmitry/Desktop/project/CMakeFiles/ALL_BUILD.dir
+C:/Users/dmitry/Desktop/project/CMakeFiles/ZERO_CHECK.dir
+C:/Users/dmitry/Desktop/project/core/CMakeFiles/core.dir
+C:/Users/dmitry/Desktop/project/core/CMakeFiles/ALL_BUILD.dir
+C:/Users/dmitry/Desktop/project/server/CMakeFiles/server.dir
+C:/Users/dmitry/Desktop/project/server/CMakeFiles/ALL_BUILD.dir
+C:/Users/dmitry/Desktop/project/tests/CMakeFiles/tests.dir
+C:/Users/dmitry/Desktop/project/tests/CMakeFiles/ALL_BUILD.dir

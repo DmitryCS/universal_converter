@@ -1,0 +1,94 @@
+{
+ "graph_lock": {
+  "nodes": {
+   "0": {
+    "options": "bzip2:build_executable=True\nbzip2:shared=False\ncatch2:with_main=False\nexpat:shared=False\nfast-cpp-csv-parser:with_thread=True\ngmp:disable_assembly=True\ngmp:enable_cxx=True\ngmp:enable_fat=False\ngmp:run_checks=False\ngmp:shared=False\nnlohmann_json:implicit_conversions=True\nnlohmann_json:multiple_headers=False\npcre:build_pcre_16=True\npcre:build_pcre_32=True\npcre:build_pcre_8=True\npcre:build_pcrecpp=False\npcre:build_pcregrep=True\npcre:shared=False\npcre:with_bzip2=True\npcre:with_jit=False\npcre:with_stack_for_recursion=True\npcre:with_unicode_properties=False\npcre:with_utf=False\npcre:with_zlib=True\npoco:enable_apacheconnector=False\npoco:enable_cppparser=False\npoco:enable_crypto=False\npoco:enable_data=False\npoco:enable_data_mysql=False\npoco:enable_data_odbc=False\npoco:enable_data_postgresql=False\npoco:enable_data_sqlite=False\npoco:enable_encodings=False\npoco:enable_json=True\npoco:enable_jwt=False\npoco:enable_mongodb=False\npoco:enable_net=True\npoco:enable_netssl_win=False\npoco:enable_pagecompiler=False\npoco:enable_pagecompiler_file2page=False\npoco:enable_pdf=False\npoco:enable_pocodoc=False\npoco:enable_redis=False\npoco:enable_sevenzip=False\npoco:enable_util=True\npoco:enable_xml=True\npoco:enable_zip=False\npoco:shared=False\nzlib:minizip=deprecated\nzlib:shared=False",
+    "requires": [
+     "1",
+     "2",
+     "3",
+     "8",
+     "9"
+    ],
+    "path": "conanfile.txt",
+    "context": "host"
+   },
+   "1": {
+    "ref": "gmp/6.2.1",
+    "options": "disable_assembly=True\nenable_cxx=True\nenable_fat=False\nrun_checks=False\nshared=False",
+    "package_id": "c35c3884712ccab67134676b3188e9887d64630b",
+    "prev": "0",
+    "context": "host"
+   },
+   "2": {
+    "ref": "catch2/2.13.4",
+    "options": "with_main=False",
+    "package_id": "5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9",
+    "prev": "0",
+    "context": "host"
+   },
+   "3": {
+    "ref": "poco/1.10.1",
+    "options": "enable_apacheconnector=False\nenable_cppparser=False\nenable_crypto=False\nenable_data=False\nenable_data_mysql=False\nenable_data_odbc=False\nenable_data_postgresql=False\nenable_data_sqlite=False\nenable_encodings=False\nenable_json=True\nenable_jwt=False\nenable_mongodb=False\nenable_net=True\nenable_netssl_win=False\nenable_pagecompiler=False\nenable_pagecompiler_file2page=False\nenable_pdf=False\nenable_pocodoc=False\nenable_redis=False\nenable_sevenzip=False\nenable_util=True\nenable_xml=True\nenable_zip=False\nshared=False\nbzip2:build_executable=True\nbzip2:shared=False\nexpat:shared=False\npcre:build_pcre_16=True\npcre:build_pcre_32=True\npcre:build_pcre_8=True\npcre:build_pcrecpp=False\npcre:build_pcregrep=True\npcre:shared=False\npcre:with_bzip2=True\npcre:with_jit=False\npcre:with_stack_for_recursion=True\npcre:with_unicode_properties=False\npcre:with_utf=False\npcre:with_zlib=True\nzlib:minizip=deprecated\nzlib:shared=False",
+    "package_id": "8726c017859ad080c3bda84464afc66a970e5c5e",
+    "prev": "0",
+    "modified": true,
+    "requires": [
+     "4",
+     "6",
+     "7"
+    ],
+    "context": "host"
+   },
+   "4": {
+    "ref": "pcre/8.44",
+    "options": "build_pcre_16=True\nbuild_pcre_32=True\nbuild_pcre_8=True\nbuild_pcrecpp=False\nbuild_pcregrep=True\nshared=False\nwith_bzip2=True\nwith_jit=False\nwith_stack_for_recursion=True\nwith_unicode_properties=False\nwith_utf=False\nwith_zlib=True\nbzip2:build_executable=True\nbzip2:shared=False\nzlib:minizip=deprecated\nzlib:shared=False",
+    "package_id": "7b5990dfb565ffb4578e401404e2eeb2a004379c",
+    "prev": "0",
+    "requires": [
+     "5",
+     "6"
+    ],
+    "context": "host"
+   },
+   "5": {
+    "ref": "bzip2/1.0.8",
+    "options": "build_executable=True\nshared=False",
+    "package_id": "589a23dff5fdb23a7fb851223eb766480ead0a9a",
+    "prev": "0",
+    "context": "host"
+   },
+   "6": {
+    "ref": "zlib/1.2.11",
+    "options": "minizip=deprecated\nshared=False",
+    "package_id": "d057732059ea44a47760900cb5e4855d2bea8714",
+    "prev": "0",
+    "context": "host"
+   },
+   "7": {
+    "ref": "expat/2.2.10",
+    "options": "shared=False",
+    "package_id": "d057732059ea44a47760900cb5e4855d2bea8714",
+    "prev": "0",
+    "context": "host"
+   },
+   "8": {
+    "ref": "nlohmann_json/3.9.1",
+    "options": "implicit_conversions=True\nmultiple_headers=False",
+    "package_id": "d1091b2ed420e6d287293709a907ae824d5de508",
+    "prev": "0",
+    "context": "host"
+   },
+   "9": {
+    "ref": "fast-cpp-csv-parser/cci.20200830",
+    "options": "with_thread=True",
+    "package_id": "5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9",
+    "prev": "0",
+    "context": "host"
+   }
+  },
+  "revisions_enabled": false
+ },
+ "version": "0.4",
+ "profile_host": "[settings]\narch=x86_64\narch_build=x86_64\nbuild_type=Debug\ncompiler=Visual Studio\ncompiler.runtime=MDd\ncompiler.version=16\nos=Windows\nos_build=Windows\n[options]\npoco:enable_apacheconnector=False\npoco:enable_cppparser=False\npoco:enable_crypto=False\npoco:enable_data=False\npoco:enable_data_mysql=False\npoco:enable_data_odbc=False\npoco:enable_data_postgresql=False\npoco:enable_data_sqlite=False\npoco:enable_encodings=False\npoco:enable_json=True\npoco:enable_jwt=False\npoco:enable_mongodb=False\npoco:enable_net=True\npoco:enable_netssl_win=False\npoco:enable_pagecompiler=False\npoco:enable_pagecompiler_file2page=False\npoco:enable_pdf=False\npoco:enable_pocodoc=False\npoco:enable_redis=False\npoco:enable_sevenzip=False\npoco:enable_util=True\npoco:enable_xml=True\npoco:enable_zip=False\n[build_requires]\n[env]\n"
+}

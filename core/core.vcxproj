@@ -1,0 +1,290 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{72E3705B-4D78-3F70-965F-97046810D8E8}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>core</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\dmitry\Desktop\project\core\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">core.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">core</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\dmitry\Desktop\project\core\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">core.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">core</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\dmitry\Desktop\project\core\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">core.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">core</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\dmitry\Desktop\project\core\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">core.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">core</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\dmitry\Desktop\project\core\include;C:\Users\dmitry\Desktop\project\core\src;C:\Users\dmitry\.conan\data\fast-cpp-csv-parser\cci.20200830\_\_\package\5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9\include;C:\Users\dmitry\.conan\data\fast-cpp-csv-parser\cci.20200830\_\_\package\5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9\include\fast-cpp-csv-parser;C:\Users\dmitry\.conan\data\gmp\6.2.1\_\_\package\c35c3884712ccab67134676b3188e9887d64630b\include;C:\Users\dmitry\.conan\data\nlohmann_json\3.9.1\_\_\package\d1091b2ed420e6d287293709a907ae824d5de508\include;C:\Users\dmitry\.conan\data\poco\1.10.1\_\_\package\8726c017859ad080c3bda84464afc66a970e5c5e\include;C:\Users\dmitry\.conan\data\pcre\8.44\_\_\package\7b5990dfb565ffb4578e401404e2eeb2a004379c\include;C:\Users\dmitry\.conan\data\bzip2\1.0.8\_\_\package\589a23dff5fdb23a7fb851223eb766480ead0a9a\include;C:\Users\dmitry\.conan\data\zlib\1.2.11\_\_\package\d057732059ea44a47760900cb5e4855d2bea8714\include;C:\Users\dmitry\.conan\data\expat\2.2.10\_\_\package\d057732059ea44a47760900cb5e4855d2bea8714\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /Zc:__cplusplus</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NOMINMAX;JSON_USE_IMPLICIT_CONVERSIONS=1;POCO_NO_AUTOMATIC_LIBS;POCO_STATIC=ON;PCRE_STATIC=1;XML_STATIC;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;NOMINMAX;JSON_USE_IMPLICIT_CONVERSIONS=1;POCO_NO_AUTOMATIC_LIBS;POCO_STATIC=ON;PCRE_STATIC=1;XML_STATIC;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\dmitry\Desktop\project\core\include;C:\Users\dmitry\Desktop\project\core\src;C:\Users\dmitry\.conan\data\fast-cpp-csv-parser\cci.20200830\_\_\package\5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9\include;C:\Users\dmitry\.conan\data\fast-cpp-csv-parser\cci.20200830\_\_\package\5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9\include\fast-cpp-csv-parser;C:\Users\dmitry\.conan\data\gmp\6.2.1\_\_\package\c35c3884712ccab67134676b3188e9887d64630b\include;C:\Users\dmitry\.conan\data\nlohmann_json\3.9.1\_\_\package\d1091b2ed420e6d287293709a907ae824d5de508\include;C:\Users\dmitry\.conan\data\poco\1.10.1\_\_\package\8726c017859ad080c3bda84464afc66a970e5c5e\include;C:\Users\dmitry\.conan\data\pcre\8.44\_\_\package\7b5990dfb565ffb4578e401404e2eeb2a004379c\include;C:\Users\dmitry\.conan\data\bzip2\1.0.8\_\_\package\589a23dff5fdb23a7fb851223eb766480ead0a9a\include;C:\Users\dmitry\.conan\data\zlib\1.2.11\_\_\package\d057732059ea44a47760900cb5e4855d2bea8714\include;C:\Users\dmitry\.conan\data\expat\2.2.10\_\_\package\d057732059ea44a47760900cb5e4855d2bea8714\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\dmitry\Desktop\project\core\include;C:\Users\dmitry\Desktop\project\core\src;C:\Users\dmitry\.conan\data\fast-cpp-csv-parser\cci.20200830\_\_\package\5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9\include;C:\Users\dmitry\.conan\data\fast-cpp-csv-parser\cci.20200830\_\_\package\5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9\include\fast-cpp-csv-parser;C:\Users\dmitry\.conan\data\gmp\6.2.1\_\_\package\c35c3884712ccab67134676b3188e9887d64630b\include;C:\Users\dmitry\.conan\data\nlohmann_json\3.9.1\_\_\package\d1091b2ed420e6d287293709a907ae824d5de508\include;C:\Users\dmitry\.conan\data\poco\1.10.1\_\_\package\8726c017859ad080c3bda84464afc66a970e5c5e\include;C:\Users\dmitry\.conan\data\pcre\8.44\_\_\package\7b5990dfb565ffb4578e401404e2eeb2a004379c\include;C:\Users\dmitry\.conan\data\bzip2\1.0.8\_\_\package\589a23dff5fdb23a7fb851223eb766480ead0a9a\include;C:\Users\dmitry\.conan\data\zlib\1.2.11\_\_\package\d057732059ea44a47760900cb5e4855d2bea8714\include;C:\Users\dmitry\.conan\data\expat\2.2.10\_\_\package\d057732059ea44a47760900cb5e4855d2bea8714\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\dmitry\Desktop\project\core\include;C:\Users\dmitry\Desktop\project\core\src;C:\Users\dmitry\.conan\data\fast-cpp-csv-parser\cci.20200830\_\_\package\5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9\include;C:\Users\dmitry\.conan\data\fast-cpp-csv-parser\cci.20200830\_\_\package\5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9\include\fast-cpp-csv-parser;C:\Users\dmitry\.conan\data\gmp\6.2.1\_\_\package\c1430fa7339501202f6eff5c00c1be2706543a7c\include;C:\Users\dmitry\.conan\data\nlohmann_json\3.9.1\_\_\package\d1091b2ed420e6d287293709a907ae824d5de508\include;C:\Users\dmitry\.conan\data\poco\1.10.1\_\_\package\0f0172b5e5badfda7d0d23317584214cf60454b8\include;C:\Users\dmitry\.conan\data\pcre\8.44\_\_\package\3f212c80aa6d2e609fef5fb7cb6dfc086d607220\include;C:\Users\dmitry\.conan\data\bzip2\1.0.8\_\_\package\d16a91eadaaf5829b928b12d2f836ff7680d3df5\include;C:\Users\dmitry\.conan\data\zlib\1.2.11\_\_\package\3fb49604f9c2f729b85ba3115852006824e72cab\include;C:\Users\dmitry\.conan\data\expat\2.2.10\_\_\package\3fb49604f9c2f729b85ba3115852006824e72cab\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /Zc:__cplusplus</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;NOMINMAX;JSON_USE_IMPLICIT_CONVERSIONS=1;POCO_NO_AUTOMATIC_LIBS;POCO_STATIC=ON;PCRE_STATIC=1;XML_STATIC;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;NOMINMAX;JSON_USE_IMPLICIT_CONVERSIONS=1;POCO_NO_AUTOMATIC_LIBS;POCO_STATIC=ON;PCRE_STATIC=1;XML_STATIC;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\dmitry\Desktop\project\core\include;C:\Users\dmitry\Desktop\project\core\src;C:\Users\dmitry\.conan\data\fast-cpp-csv-parser\cci.20200830\_\_\package\5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9\include;C:\Users\dmitry\.conan\data\fast-cpp-csv-parser\cci.20200830\_\_\package\5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9\include\fast-cpp-csv-parser;C:\Users\dmitry\.conan\data\gmp\6.2.1\_\_\package\c1430fa7339501202f6eff5c00c1be2706543a7c\include;C:\Users\dmitry\.conan\data\nlohmann_json\3.9.1\_\_\package\d1091b2ed420e6d287293709a907ae824d5de508\include;C:\Users\dmitry\.conan\data\poco\1.10.1\_\_\package\0f0172b5e5badfda7d0d23317584214cf60454b8\include;C:\Users\dmitry\.conan\data\pcre\8.44\_\_\package\3f212c80aa6d2e609fef5fb7cb6dfc086d607220\include;C:\Users\dmitry\.conan\data\bzip2\1.0.8\_\_\package\d16a91eadaaf5829b928b12d2f836ff7680d3df5\include;C:\Users\dmitry\.conan\data\zlib\1.2.11\_\_\package\3fb49604f9c2f729b85ba3115852006824e72cab\include;C:\Users\dmitry\.conan\data\expat\2.2.10\_\_\package\3fb49604f9c2f729b85ba3115852006824e72cab\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\dmitry\Desktop\project\core\include;C:\Users\dmitry\Desktop\project\core\src;C:\Users\dmitry\.conan\data\fast-cpp-csv-parser\cci.20200830\_\_\package\5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9\include;C:\Users\dmitry\.conan\data\fast-cpp-csv-parser\cci.20200830\_\_\package\5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9\include\fast-cpp-csv-parser;C:\Users\dmitry\.conan\data\gmp\6.2.1\_\_\package\c1430fa7339501202f6eff5c00c1be2706543a7c\include;C:\Users\dmitry\.conan\data\nlohmann_json\3.9.1\_\_\package\d1091b2ed420e6d287293709a907ae824d5de508\include;C:\Users\dmitry\.conan\data\poco\1.10.1\_\_\package\0f0172b5e5badfda7d0d23317584214cf60454b8\include;C:\Users\dmitry\.conan\data\pcre\8.44\_\_\package\3f212c80aa6d2e609fef5fb7cb6dfc086d607220\include;C:\Users\dmitry\.conan\data\bzip2\1.0.8\_\_\package\d16a91eadaaf5829b928b12d2f836ff7680d3df5\include;C:\Users\dmitry\.conan\data\zlib\1.2.11\_\_\package\3fb49604f9c2f729b85ba3115852006824e72cab\include;C:\Users\dmitry\.conan\data\expat\2.2.10\_\_\package\3fb49604f9c2f729b85ba3115852006824e72cab\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\dmitry\Desktop\project\core\include;C:\Users\dmitry\Desktop\project\core\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /Zc:__cplusplus</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;NOMINMAX;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;NOMINMAX;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\dmitry\Desktop\project\core\include;C:\Users\dmitry\Desktop\project\core\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\dmitry\Desktop\project\core\include;C:\Users\dmitry\Desktop\project\core\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\dmitry\Desktop\project\core\include;C:\Users\dmitry\Desktop\project\core\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /Zc:__cplusplus</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;NOMINMAX;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;NOMINMAX;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\dmitry\Desktop\project\core\include;C:\Users\dmitry\Desktop\project\core\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\dmitry\Desktop\project\core\include;C:\Users\dmitry\Desktop\project\core\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\dmitry\Desktop\project\core\CMakeLists.txt">
+      <StdOutEncoding>UTF-8</StdOutEncoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/dmitry/Desktop/project/core/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/dmitry/Desktop/project -BC:/Users/dmitry/Desktop/project --check-stamp-file C:/Users/dmitry/Desktop/project/core/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\dmitry\Desktop\project\cmake\Utilities.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\dmitry\Desktop\project\core\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/dmitry/Desktop/project/core/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/dmitry/Desktop/project -BC:/Users/dmitry/Desktop/project --check-stamp-file C:/Users/dmitry/Desktop/project/core/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\dmitry\Desktop\project\cmake\Utilities.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\dmitry\Desktop\project\core\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/dmitry/Desktop/project/core/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/dmitry/Desktop/project -BC:/Users/dmitry/Desktop/project --check-stamp-file C:/Users/dmitry/Desktop/project/core/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\dmitry\Desktop\project\cmake\Utilities.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\dmitry\Desktop\project\core\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/dmitry/Desktop/project/core/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/dmitry/Desktop/project -BC:/Users/dmitry/Desktop/project --check-stamp-file C:/Users/dmitry/Desktop/project/core/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\dmitry\Desktop\project\cmake\Utilities.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\dmitry\Desktop\project\core\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\dmitry\Desktop\project\core\include\udecoder\dummy.h" />
+    <ClCompile Include="C:\Users\dmitry\Desktop\project\core\src\dummy.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\dmitry\Desktop\project\ZERO_CHECK.vcxproj">
+      <Project>{334CFA12-1656-3A99-B7FE-01F83C37BCDC}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
