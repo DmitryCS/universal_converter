@@ -335,6 +335,9 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <Name>core</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <Text Include="rules.csv" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

@@ -13,4 +13,9 @@
       <UniqueIdentifier>{C5FA1646-7EFB-323C-AB10-6BEFAC91AD8E}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
+  <ItemGroup>
+    <Text Include="rules.csv">
+      <Filter>src</Filter>
+    </Text>
+  </ItemGroup>
 </Project>
